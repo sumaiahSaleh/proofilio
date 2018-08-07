@@ -124,7 +124,7 @@ h3{
 #contect{
 	padding:35px;
 	background-color:rgba(170,170,170,0.43);
-	height:50px;
+	height:150px;
 	
 	/*border-top-style:groove;*/
 	border-top-style:double;
@@ -149,6 +149,18 @@ h5{
 height:30px;
 	
 	/*border-top-style:groove;*/
+	
+}
+#ooo{
+	/*margin-right:350px;*/
+	float:right;
+}
+#oo{
+	/*margin-right:30px;*/
+	float:right;
+	margin-bottom:50px;
+	margin-left:30px;S
+	
 	
 }
 	
