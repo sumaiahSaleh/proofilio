@@ -5,18 +5,55 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <title>portfile</title>
+<script>
+function changeground(){
+	var text =document.getElementById("like_button_container").style.backgroundColor="rgba(0,0,0,0.298039)";
+}
+function backNormal(){
+	var text =document.getElementById("like_button_container").style.backgroundColor="";
+}
+
+function changegroundd(){
+	var text =document.getElementById("kk").style.backgroundColor="rgba(0,0,0,0.298039)";
+}
+function backNormall(){
+	var text =document.getElementById("kk").style.backgroundColor="";
+}
+
+function changegrounddd(){
+	var text =document.getElementById("second").style.backgroundColor="rgba(0,0,0,0.298039)";
+}
+function backNormalll(){
+	var text =document.getElementById("second").style.backgroundColor="";
+}
+function changegroundddd(){
+	var text =document.getElementById("therd").style.backgroundColor="rgba(0,0,0,0.298039)";
+}
+function backNormallll(){
+	var text =document.getElementById("therd").style.backgroundColor="";
+}
+
+function changegrounddddd(){
+	var text =document.getElementById("contect").style.backgroundColor="rgba(0,0,0,0.298039)";
+}
+function backNormalllll(){
+	var text =document.getElementById("contect").style.backgroundColor="";
+}
+
+
+</script>
+    
 </head>
 
 <body>
-<header>
+<header id="kk" onmouseover="changegroundd()" onmouseout="backNormall()">
 <h1>Sumaiah Saleh AlHarbi</h1>
 <p>I study at Qassim University , Department of Information Technology </p>
 
 </header>
 
-<div id="second">
-<h2> Skills </h2>
-<img src="c1.png" width="100" height="100" />
+<div id="second" onmouseover="changegrounddd()" onmouseout="backNormalll()">
+<h2> Skills</h2>
 <img src="c++.png" width="100" height="100" />
 <img src="java1.png" width="100" height="100" />
 
@@ -25,13 +62,11 @@
 <img src="html22.png" width="100" height="100" />
 <img src="oracle2.jpg" width="100" height="100" />
 <img src="android.png" width="100" height="100" />
-
-
 </div>
 
 <!--hobies-->
 
-<div id="therd">
+<div id="therd" onmouseover="changegroundddd()" onmouseout="backNormallll()">
 <h3>Hobbies</h3>
 
 <ul>
@@ -55,12 +90,15 @@
 
 </div>
 
-<div id ="contect">
+<div id="contect" onmouseover="changegrounddddd()" onmouseout="backNormalllll()">
 <h5>contact</h5>
 <p id="gg">Email: suum.2014s@gmail.com</p>
 
 </div>
 
+<div id="like_button_container" onmouseover="changeground()" onmouseout="backNormal()"> <a href="indextt.html">do you like my portfolio</a> </div>
 
+
+ 
 </body>
 </html>
